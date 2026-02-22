@@ -1,4 +1,3 @@
-require('dotenv').config();
 const mongoose = require('mongoose');
 
 
@@ -16,6 +15,7 @@ const robloxUserSchema = new mongoose.Schema({
 
 
 const RobloxUser = mongoose.model('RobloxUser', robloxUserSchema);
+
 
 
 module.exports = { RobloxUser };
