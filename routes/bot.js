@@ -1,4 +1,3 @@
-require('dotenv').config();
 const { Client, GatewayIntentBits, REST, Routes, SlashCommandBuilder } = require('discord.js');
 const { RobloxUser } = require('./schema');
 
@@ -141,4 +140,5 @@ client.on('messageCreate', async message => {
 });
 
 client.login(process.env.DISCORD_TOKEN);
+
 module.exports = client;
