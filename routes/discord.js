@@ -1,4 +1,3 @@
-require('dotenv').config({ path: '../.env' });
 const express = require('express');
 const router = express.Router();
 const client = require('./bot'); 
@@ -78,5 +77,6 @@ router.get('/discord', async (req, res) => {
         return res.status(500).json({ success: false, error: err.message || "Internal error" });
     }
 });
+
 
 module.exports = router;
