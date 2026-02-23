@@ -52,6 +52,13 @@ This also probably scales really poorly 🤷‍♂️
 
 ---
 
+## note notes
+Some additional things that are possible, although not demonstrated in this repo is 
+For example, you can return user roles, Nitro status, badges (HypeSquad, etc.). That means you could reward people in-game based on things like having the Server Booster role in your Discord.
+This is just a proof of concept, really. I understand this execution isn't production-grade.
+
+
+
 PROBABLY against Roblox TOS?  
 I don’t care. I built this in 3 hours.
 
